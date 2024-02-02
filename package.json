@@ -1,15 +1,8 @@
 {
-  "name": "tsimp-fetch",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --watch --import=tsimp/import src/server.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "prettier": "^3.2.4",
     "tsimp": "^2.0.10",
